@@ -1,0 +1,40 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(129, 49, 129);
+}
+
+.contenedor {
+    border: 5px solid white;
+    margin-top: 0px;
+    position: relative;
+    height: 100%;
+}
+
+button {
+    font-size: 50px;
+    
+}
+
+.btn_atras{
+    position: absolute;
+    margin: 23% 0px 0px 10px;
+}
+
+img {
+    width: 66.9%;
+    padding-left: 34%;
+}
+
+.btn_adelante {
+    position: absolute;
+    margin: -26.8% 0px 0px 96.6%;
+}
+
+.contenido img {
+    padding-bottom: 20px;
+}
