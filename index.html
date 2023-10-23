@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Home </title>
     <link rel="stylesheet" href="/CSS/pag1_style.css">
 </head>
 <body>
-        <div class="menu">
-            <ul>
-                <li> <a href="">Inicio </a></li>
-                <li> <a href="../PAGINA_2/pag2.html">Carta </a></li>
-                <li> <a href="">Contactanos </a></li>
-            </ul>
+    <div class="slider0">
+        <div class="btn_atras">
+            <button type="button" onclick="atras()"> Atras </button>
         </div>
-        <h1 class="inicio"> Bienvenidos a nuestro sitio web</h1>
-        <p> 
-            Aca vas a encontrar nuestra variedad de comidas <span class="precio"> a un buen precio y accesible</span>. Tambien puede contactarnos para 
-            reservaciones, quejas o tips para mejorar nuestro servicio.
+        <div class="seccion">
+           <a href="../index.html"><h1> Inicio </h1></a>
+        </div>
+        <div class="seccion">
+            <a href="../PAGINA_2/pag2.html"><h1>  </h1></a>
+        </div>
+        <div class="seccion">
+            <a href="../PAGINA_3/pag3.html"><h1>  </h1></a>
+        </div>
+        <div class="btn_adelante">
+            <button type="button" onclick="siguiente()"> Siguiente </button>
+        </div>
+    </div>
+        <h1 id="inicio"> Bienvenidos a nuestro sitio web</h1>
+        <p class="articulo"> 
+            Aca vas a encontrar nuestra variedad de comidas <span id="precio"> a un buen precio y accesible</span>. Tambien puede contactarnos para 
+            <span id="contacto"> sugerencias, quejas o recomendaciones </span> para mejorar nuestro servicio.
         </p>
-        <p class="final_mensaje"> La vas a pasar genial, los esperamos</p>
+        <p class="articulo"> La vas a pasar genial, lo esperamos</p>
         
         <div class="info">
-            <div class="info_ubicacion">
-            <p> ¿Donde encontrarnos?</p>
-            <p> Nuestro local se encuentra entre la Av. Lafinur 500 y Ayacucho</p>
+            <div class="ubicacion">
+                <p> ¿Donde encontrarnos?</p>
+                <p> Nuestro local se encuentra entre la Av. Lafinur 500 y Ayacucho</p>
             </div>
-        
-            <div class="info_horarios">
-            <p> Horarios de atencion: </p>
-            <p> Lunes a Viernes: 20:30 a 2:00 hs</p>
-            <p> Sabados: 20:30 a 3:00 hs</p>
-            <p> Domingos: CERRADO</p>
-            </div>
+            <div class="horarios">
+                <p> Horarios de atencion: </p>
+                <p> Lunes a Viernes: 20:30 a 2:00 hs</p>
+                <p> Sabados: 20:30 a 3:00 hs</p>
+                <p> Domingos: CERRADO</p>
+            </div>    
         </div>
-
-        <p></p>
+        <script src="/JS/pag1_script.js"></script>
 </body>
 </html> 

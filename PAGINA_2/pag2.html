@@ -7,16 +7,87 @@
     <link rel="stylesheet" href="/PAGINA_2/CSS/pag2_style.css">
 </head>
 <body>
-    <div class="contenedor">
+    <div class="slider0">
         <div class="btn_atras">
-            <button type="button">←</button>
+            <button type="button" onclick="atras()"> Atras </button>
         </div>
-        <div class="contenido">
-            <img src="../PAGINA_2/victoria-shes-UC0HZdUitWY-unsplash.jpg" alt="">
+        <div class="seccion">
+           <a href="../index.html"><h1> Carta </h1></a>
+        </div>
+        <div class="seccion">
+            <a href="../PAGINA_2/pag2.html"><h1>  </h1></a>
+        </div>
+        <div class="seccion">
+            <a href="../PAGINA_3/pag3.html"><h1>  </h1></a>
         </div>
         <div class="btn_adelante">
-            <button type="button">→</button>
+            <button type="button" onclick="siguiente()"> Siguiente </button>
         </div>
     </div>
+    <div class="menuCarta">
+
+        <div class="promociones">
+            <p class="titulo"> Promociones </p>
+            <p class="item"> Pizza Especial y cualquier gaseosa <span> 2300 </span> </p>
+            <p class="item"> 1 docena de empanadas (Carne/Jamon y Queso), Pizza Mozarella y cualquier gaseosa <span> 2500 </span> </p>
+            <p class="item"> 2 Hamburguesas Clasicas, 1/2 docena de empanadas y caulquier gaseosa <span> 2800</span></p>
+        </div> 
+    
+        <div class="pizzas">
+            <p class="titulo"> Pizzas </p>
+            <p class="item"> 
+                Pizza Especial (Salsa de tomate, mozarella, jamón cocido, 
+                morrones rojos, huevos, aceitunas verdes) <span> 2800 </span> </p>
+            <p class="item"> Pizza Mozzarella (Salsa de tomtate, mozarella, oregano, aceitunas verdes) <span> 2800 </span> </p>
+            <p class="item"> Pizza Napolitana (Salsa de tomate, mozarella, tomate, ajo y perejil) <span> 2800 </span> </p>
+            <p class="item"> 
+                Pizza 4 Quesos (Salsa de tomate, mozarella, queso holanda, 
+                parmesano, roquefort y aceitunas negras) <span> 2900 </span> </p>
+            <p class="item"> Pizza Fugazzetta (mozarella, cebolla, oregano y aceitunas negras) <span> 2800 </span> </p>
+        </div>
+
+        <div class="hamburguesas">
+            <p class="titulo"> Hamburguesas </p>
+            <p class="item"> Hamburguesa Clasica (1 medallon de carne, jamón, lechuga, tomate y huevo frito) <span> 3000 </span> </p>
+            <p class="item"> Chesseburger (1 medallon de carne, cebolla, tomate, queso y lechuga y huevo frito) <span> 3300 </span> </p>
+            <p class="item"> Hamburguesa de Pollo (1 medallon de pollo, jamón, lechuga, tomate y huevo frito) <span> 3000 </span> </p>
+        </div>
+
+        <div class="empanadas">
+            <p class="titulo"> Empanadas </p>
+            <p class="item"> 1 docena de Carne o Jamon y Queso <span> 800 </span> </p>
+            <p class="item"> 1 docena de pescado <span> 1200 </span> </p>
+            <p class="item"> 1 docena caballa <span> 1000 </span> </p>
+        </div>
+
+        <div class="sin_alcohol">
+            <p class="titulo"> Bebidas sin Alcohol </p>
+            <p class="item"> Gaseosas (Coca cola/Coca cola Zero/Sprite/Sprite zero/7up/Fanta) <span> 500 </span> </p>
+            <p class="item"> Agua Mineral/Soda <span> 400 </span> </p>
+            <p class="item"> Red Bull <span> 850 </span> </p>
+            <p class="item"> Aguas Saborizadas (Limonada/Manzana/Pera/Pomelo/Naranja 500 ml) <span> 500 </span> </p>
+        </div>    
+
+        <div class="cervezas">
+            <p class="titulo"> Cervezas </p>
+            <p class="item"> Quilmes(1L) <span> 1400 </span> </p>
+            <p class="item"> Stella Artois (1L) <span> 1600 </span> </p>
+            <p class="item"> Andes (1L) <span> 1500 </span> </p>
+            <p class="item"> Cerveza sin tacc <span> 900 </span> </p>
+            <p class="item"> Corona 750 ml <span> 1600 </span> </p>
+        </div>
+        
+        <div class="postres">
+            <p class="titulo"> Postres </p>
+            <p class="item"> Copa helada Baileys (Helado de crema americana, licor de Baileys, nueces y almendras confitadas) <span> 1200 </span> </p>
+            <p class="item"> 
+                Banana Split (Banana, (Helados de chocolate, frutilla y vainilla), 
+                salsa de chocolate, crema chantilly, cereza) <span> 2300 </span> </p>
+            <p class="item"> Flan <span> 1500 </span> </p>
+            <p class="item"> Brownie <span> 1500 </span> </p>
+        </div>
+
+    </div>
+    <script src="../PAGINA_2/JS/pag2_script.js"></script>
 </body>
 </html>
