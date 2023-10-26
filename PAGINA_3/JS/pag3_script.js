@@ -56,8 +56,8 @@ const lista_datos = document.getElementById("listado_datos");
 let mensaje_final = document.getElementById("mensaje_final");
 let campos = ["Nombre", "Apellido", "DNI", "Mail"];
 const nom_ape_pattern = /^([A-Za-z]){4,15}$/;
-const mail_pattern = /^([A-za-z_.!/*#.\-\d]){2,60}@([A-Za-z_.!/*#.\-\d]){2,20}(\.([A-Za-z]){3,6})((\.([A-Za-z]){2,6}))?$/;
-const textarea_pattern = /^([A-Za-z0-9.,-\s]){100,600}$/;
+const mail_pattern = /^([A-za-z_.!/*#.\-\d]){2,60}@([A-Za-z_.!/*#.\-\d]){2,20}(\.([A-Za-z]){3,6})$/;
+const textarea_pattern = /^([A-Za-z.+¿?¡!°$",_*()=%°&\-/\s\d]){100,600}$/
 
 function validar() {
 

@@ -63,7 +63,7 @@ button {
 }
 
 .menuCarta {
-    border: 10px double blue;
+    border: 15px double rgb(255, 38, 0);
     margin: 140px 220px 140px 182px;
     border-radius: 10px;
 }
@@ -107,7 +107,7 @@ button {
 
 .titulo {
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 0px 0px 0px;
     font-size: 55px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -115,7 +115,7 @@ button {
 .item{
     font-size: 25px;
     position: relative;
-    padding: 5px 0px 25px 20px;
+    padding: 0px 0px 25px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
