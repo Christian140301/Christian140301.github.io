@@ -1,17 +1,13 @@
-var indice = 0;
-var enlaces = ["../PAGINA_2/pag2.html", "../PAGINA_3/pag3.html", "../index.html"];
-var titulos = ["Carta", "Contactanos", "Inicio"];
-var slide = document.querySelector(".slider0");
-var secc = document.querySelectorAll(".seccion");
-var enlace = secc[indice].querySelector("a");
-var titulo = secc[indice].querySelector("h1");
+let indice = 1;
+let enlaces = ["../index.html", "../PAGINA_2/pag2.html", "../PAGINA_3/pag3.html"];
+let titulos = ["Inicio", "Carta", "Contactanos"];
+let slide = document.querySelector(".slider1");
+let secc = document.querySelector(".seccion");
+let enlace = secc.querySelector("a");
+let titulo = secc.querySelector("h1");
 
-let a = document.createElement("a");
-let s = document.createElement("h1");
-
-
-console.log(a);
-console.log(s);
+enlace.href = enlaces[indice];
+titulo.innerHTML = titulos[indice];
 
 function atras(){
     if (indice > 0){

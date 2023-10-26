@@ -1,10 +1,13 @@
-var indice = 0;
-var enlaces = ["../index.html", "../PAGINA_2/pag2.html", "../PAGINA_3/pag3.html"];
-var titulos = ["Inicio", "Carta", "Contactanos"];
-var slide = document.querySelector(".slider0");
-var secc = document.querySelectorAll(".seccion");
-var enlace = secc[indice].querySelector("a");
-var titulo = secc[indice].querySelector("h1");
+let indice = 0;
+let enlaces = ["../index.html", "../PAGINA_2/pag2.html", "../PAGINA_3/pag3.html"];
+let titulos = ["Inicio", "Carta", "Contactanos"];
+let slide = document.querySelector(".slider0");
+let secc = document.querySelector(".seccion");
+let enlace = secc.querySelector("a");
+let titulo = secc.querySelector("h1");
+
+enlace.href = enlaces[indice];
+titulo.innerHTML = titulos[indice];
 
 function atras(){
     if (indice > 0){
@@ -25,7 +28,6 @@ function atras(){
         enlace.href = enlaces[indice];
         titulo.innerHTML = titulos[indice];
     }
-    console.log(indice);
 }
 
 function siguiente(){ 
@@ -47,5 +49,4 @@ function siguiente(){
         enlace.href = enlaces[indice];
         titulo.innerHTML = titulos[indice];
     }
-    console.log(indice);
 }

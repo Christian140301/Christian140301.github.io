@@ -8,26 +8,26 @@ body {
 
 .slider0{
     position: relative;
-    border: 5px groove rgb(0, 149, 255); 
+    border: 5px groove rgb(251, 0, 0);  
+    height: 200px;
+    margin: -7.9px 382px 0px 342px;
+    background-color: rgb(251, 0, 0)
+}
+
+.slider1{
+    position: relative;
+    border: 5px groove rgb(0, 149, 255);  
     height: 200px;
     margin: -7.9px 382px 0px 342px;
     background-color: rgb(0, 149, 255);
 }
 
-.slider1{
+.slider2{
     position: relative;
     border: 5px groove rgb(19, 228, 0);  
     height: 200px;
     margin: -7.9px 382px 0px 342px;
     background-color: rgb(19, 228, 0);
-}
-
-.slider2{
-    position: relative;
-    border: 5px groove red;  
-    height: 200px;
-    margin: -7.9px 382px 0px 342px;
-    background-color: red;
 }
 
 .btn_atras {
@@ -36,18 +36,18 @@ body {
     top: 0;
 }
 
+.seccion h1{
+    text-align: center;
+    margin: 35px 30px 0px 0px;
+    font-size: 60px;
+    font-family: 'Playpen Sans', cursive;
+}
+
 .btn_adelante { 
     margin: 66px 10px;
     position: absolute;
     top: 0;
     right: 0;
-}
-
-.seccion h1{
-    text-align: center;
-    margin: 49px 30px 0px 0px;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -66,37 +66,6 @@ button {
     border: 10px double blue;
     margin: 140px 220px 140px 182px;
     border-radius: 10px;
-}
-
-.titulo {
-    text-align: center;
-    padding: 10px 0px;
-    font-size: 55px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-.item{
-    font-size: 25px;
-    position: relative;
-    padding: 5px 0px 25px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.item span{
-    background-color: whitesmoke;
-    border: 3px solid black;
-    border-radius: 30px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: -8px 60px 0px 0px;
-    padding: 5px;
-    font-size: 30px;
-}
-
-.precio{
-    font-size: 40px;
-    margin: 0px 0px 0px 89%;
 }
 
 .promociones{
@@ -133,4 +102,36 @@ button {
 .postres{
     background-color: rgb(170, 170, 33);
     margin: -55px 0px -25px 0px;
+}
+
+
+.titulo {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 55px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.item{
+    font-size: 25px;
+    position: relative;
+    padding: 5px 0px 25px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item span{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: -8px 60px 0px 0px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.precio{
+    font-size: 40px;
+    margin: 0px 0px 0px 89%;
 }
