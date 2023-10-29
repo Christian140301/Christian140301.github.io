@@ -16,10 +16,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav>
     <div class="slider0">
         <div class="btn_atras">
             <button type="button" onclick="atras()"> Atras </button>
@@ -33,7 +34,8 @@
             <button type="button" onclick="siguiente()"> Siguiente </button>
         </div>
     </div>
-    <h1 id="inicio"> Bienvenidos a nuestro sitio web</h1>
+    </nav>
+    <h1 id="inicio"> Bienvenidos al sitio web de nuestro <span id="siguiente_linea"> restoran "Las Buenas Noches" </span> </h1>
     <article>
         <p class="articulo">
             Aca vas a encontrar nuestra variedad de comidas <span id="precio"> a un buen precio y accesible</span>.
@@ -48,13 +50,20 @@
     <div class="info">
         <div class="ubicacion">
             <p> ¿Donde encontrarnos?</p>
-            <p> Nuestro local se encuentra entre la Av. Lafinur 500 y Ayacucho</p>
+            <p>Nuestro local se encuentra entre la Av. Lafinur 500 y Ayacucho</p>
         </div>
         <div class="horarios">
-            <p> Horarios de atencion: </p>
-            <p> Lunes a Viernes: 20:30 a 2:00 hs</p>
-            <p> Sabados: 20:30 a 3:00 hs</p>
-            <p> Domingos: CERRADO</p>
+            <p> Horarios de atencion: 
+            <p> Lunes a Viernes: 20:30 a 2:00 hs 
+                Sabados: 20:30 a 3:00 hs 
+                Domingos: CERRADO</p>
+        </div>
+        <div class="navegacion">
+            <p> ¿Como navegar?</p>
+            <p> 
+                Dale en "Atras" o "Siguiente" para cambiar de titulo
+                y click sobre el mismo para transportarte hacia la pagina determinada
+            </p>
         </div>
     </div>
     <script src="/JS/pag1_script.js"></script>

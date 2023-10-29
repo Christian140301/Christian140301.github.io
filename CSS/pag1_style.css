@@ -12,7 +12,7 @@ body {
     border: 5px groove rgb(251, 0, 0);  
     height: 200px;
     margin: -7.9px 382px 0px 342px;
-    background-color: rgb(251, 0, 0)
+    background-color: rgb(251, 0, 0);
 }
 
 .slider1{
@@ -70,7 +70,7 @@ h1, p, div {
 
 #inicio {
     font-size: 70px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .articulo {
@@ -91,21 +91,36 @@ p {
 
 .info {
     border: 7px solid black;
-    margin: 0px 10%;
+    margin: 0px 2%;
+    display: flex;  
+    padding: 0;
 }
 
 .ubicacion{
-    padding: 8px;
+    padding: 0px 10px;
     background-color: rgb(108, 163, 125);
     font-family: 'Roboto', sans-serif;
+    width: 60%;
 }
 
 .horarios {
-    padding: 8px;
+    padding: 0px 10px;
     background-color: rgba(0, 255, 255, 0.4);
     font-family: 'Roboto', sans-serif;
+    width: 70%;
+}
+
+.navegacion {
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    background-color: rgb(83, 166, 0);
 }
 
 .final_mensaje {
     margin-top: -25px;
+}
+
+#siguiente_linea{
+    display: block;
 }
